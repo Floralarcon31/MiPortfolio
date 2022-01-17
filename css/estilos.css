@@ -216,7 +216,6 @@ img{
 }
 .home__img{
     position: absolute;
-   
     right: 0;
     bottom: 0;
     width: 250px;
@@ -443,6 +442,7 @@ img{
         .home__img {
             width: 200px;
             height: 210px;
+
         }
     }
   
@@ -490,9 +490,9 @@ img{
           row-gap: 0;
       }
       .home__img{
-          width: 464px;
-          height: 460px;
-          right: 10%;
+          width: 434px;
+          height: 430px;
+          right: 5%;
           
       }
       .about__container{
