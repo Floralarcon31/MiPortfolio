@@ -218,8 +218,8 @@ img{
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 280px;
-    height: 280px;
+    width: 260px;
+    height: 260px;
 }
 
 /*===about===*/
@@ -266,7 +266,10 @@ img{
 .about__social-icon:hover{
     color: var(--first-color);
 }
-
+#cv{
+    margin-top: 18px;
+    
+}
 /*===skills===*/
 
 .skills__container{
@@ -290,6 +293,7 @@ img{
 
 .skills__name:hover{
     background-color: var(--first-color);
+    color: var(--white-color);
 }
 
 .skills__img img{
@@ -385,6 +389,12 @@ img{
     font-size: var(--normal-font-size);
     cursor: pointer;
 }
+
+.contact__button:hover{
+    background-color: var(--dark-color); 
+}
+
+
 /*Enviar formulario*/
 #enviarEmail{
     opacity: 0;
